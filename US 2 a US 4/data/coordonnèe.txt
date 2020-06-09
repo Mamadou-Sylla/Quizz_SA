@@ -1,0 +1,4 @@
+host: mysql-quizzsa.alwaysdata.net 
+dbnamequizzsa_data 
+root:quizzsa
+mdp:Cheikh2013
