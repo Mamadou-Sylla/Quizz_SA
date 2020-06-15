@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.btn-ok{
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #51BFD0;
+    border-radius: 5px;
+    border: none;
+    width: 10%;
+    height: 25px;
+}
+.valid{
+    margin-top: 10px;
+    margin-left: 90px;
+}
+.ok{
+    border: 1px solid rgba(159, 155, 155, 0.99);
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 15%;
+    height: 40px;
+}
+.ok, .btn-ok{
+    margin-left: 20px;
+}
+label{
+    font-family: 'Kadwa';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 10px;
+}
+#error{
+    color:red;
+    margin-left: 200px;
+    margin-top: -10px;
+}
+.question{
+    color:rgba(159, 155, 155, 0.99);
+    font-size: 20px;
+}
+.reponse{
+    font-size: 15px;
+    color: #000000;
+}
+.answer{
+    margin-left: 30px;
+    border: 1px solid rgba(159, 155, 155, 0.99);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.btn-pagination{
+    font-family: 'Kalam';
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #51BFD0;
+    border-radius: 5px;
+    border-color: #51BFD0;
+    border: hidden;
+    float: right;
+    width: 100px;
+    margin-top: -20px;
+}
+

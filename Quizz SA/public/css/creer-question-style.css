@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nombre{
+    box-sizing: border-box;
+    background: #E5E5E5;
+    border-radius: 5px;
+    width: 18%;
+    margin-left: 20px;
+    height: 45px;
+    border: none;
+}
+.items-form{
+    padding-top: 20px;
+}
+h2{   
+    font-size: 40px;
+}
+
+label{   
+    font-size: 20px;
+    line-height: 10px;
+}
+h2, label{
+    font-family: 'Kadwa';
+    font-style: normal;
+    font-weight: normal;
+    color: rgba(159, 155, 155, 0.99);
+}
+.question{
+    box-sizing: border-box;
+    background: #E5E5E5;
+    border-radius: 5px;
+    width: 45%;
+    margin-left: 20px;
+    height: 60px;
+    border: none;
+}
+.liste-question{
+    width: 45%;
+    height: 35px;
+    background-color: #E5E5E5;
+    margin-left: 20px;
+    border: none;
+}
+#AddInput{
+    background-color: white;
+    width: 40px;
+    height: 35px;
+    margin-top: 2px;
+    margin-left: 20px;
+    background-image: url("Image/plus.png");
+    background-repeat: no-repeat;
+    border: none;
+    overflow: hidden;
+    background-size: 35px;
+    border-radius: 1px;
+    border-color:hidden ;
+}
+.input{
+    box-sizing: border-box;
+    background: #E5E5E5;
+    border-radius: 5px;
+    width: 48%;
+    margin-left:60px;
+    height: 40px;
+    border: none;
+}
+#checkbox, #radio{
+    margin-left: 5px;
+}
+#RemoveInput{
+    background-color: white;
+    width: 40px;
+    height: 35px;
+    margin-top: 2px;
+    margin-left: 10px;
+    background-image: url("Image/remove.png");
+    background-repeat: no-repeat;
+    border: none;
+    overflow: hidden;
+    background-size: 35px;
+    border-radius: 1px;
+    border-color:hidden ;
+}
+.erreur{
+    color:red;
+    margin-left: 120px;
+    margin-top: -10px;
+}
+.enregistrer{
+    font-family: 'Kalam';
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #51BFD0;
+    border-radius: 5px;
+    border-color: #51BFD0;
+    border: hidden;
+    float: right;
+    width: 100px;
+    margin-top: 8em;
+    padding-bottom: 5px;
+} 
+#items-form{
+width: 100%;
+}
+input:active{
+    border:none;
+}

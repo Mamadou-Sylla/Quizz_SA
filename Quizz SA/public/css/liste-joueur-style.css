@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+.list-title{
+    font-family: 'Kadwa';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 72px;
+    letter-spacing: 0.01em;
+    color: rgba(159, 155, 155, 0.99);
+}
+th, td{
+    line-height: 15px;
+}
+#point{
+    font-family: 'Jura';
+font-style: normal;
+font-weight: normal;
+}
+.btn-next, .btn-prev{
+    font-family: 'Kalam';
+    font-size: 20px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: hidden;
+    width: 100px;
+    margin-top: -10px;
+} 
+.btn-next{
+    background-color: #51BFD0;
+    border-color: #51BFD0;
+    float: right;
+}
+.btn-prev{
+    background-color: #2A5767;
+    border-color: #2A5767;
+   
+}

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kadwa&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("Image/img-bg.jpg");
+    opacity: 0,5;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    left: 0;
+    right: 0;
+    overflow-x: hidden;
+    
+}
+.row{
+    height: 550px;
+    margin-top: 20px;
+}
+.item-logo, .item-login{
+    margin-top: 30px;
+    height: 500px;
+}
+.item-logo{
+    margin-top: 60px;
+}
+.login{
+    width: 70%;
+    height: 380px;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px  rgba(81, 191, 208, 0.5); 
+    -webkit-box-shadow: -1px 0px 0px 11px rgba(81, 191, 208, 0.5);
+    -moz-box-shadow: -1px 0px 0px 11px rgba(81, 191, 208, 0.5);
+    box-shadow: -1px 0px 0px 11px rgba(81, 191, 208, 0.5);
+}
+.logo{
+    width: 50%;
+    height: 250px;
+    margin: 30px;
+    margin-left:45%;
+    background-image: url("Image/logo-QuizzSA.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    overflow: hidden;
+}
+h1{
+    margin-left: 130px;
+    text-align: center;
+    color: white;
+    margin-top: -40px;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 81px;
+    letter-spacing: 0.01em;
+}
+.form{
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 10%;
+}
+#title{
+    font-family: 'Kadwa';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    letter-spacing: 0.01em;
+    color:#C4C4C4;
+    text-align: center;
+    padding-top: 20px;
+}
+label{
+    font-family: 'Kadwa';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #C4C4C4;
+    
+}
+.input{
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 10px;
+    line-height: 30px;
+}
+.submit-link{
+    margin-top: 30px;
+}
+.btn-connect{
+    font-family: 'Kalam', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    background-color: #51BFD0;
+    border-radius: 5px;
+    border: none;
+    width: 40%;
+}
+.link{
+    margin-left: 25px;
+    text-decoration: none;
+    color: #51BFD0;
+}
+#login{
+    background-image: url("Image/user-silhouette.png");
+    background-repeat: no-repeat;
+    background-size: 8%;
+    background-position-x: 90%;
+    background-position-y: 5px;
+}
+#password{
+    background-image: url("Image/lock.png");
+    background-repeat: no-repeat;
+    background-size: 8%;
+    background-position-x: 90%;
+    background-position-y: 5px;
+}
+.form-control input:focus{
+    outline: 0;
+    border-color: #777;
+}
+span{
+    color: red;
+}
+.col-sm-12{
+    height: 30px;
+}
+@media (min-width: 576px) and (max-width: 767.98px) { 
+body{
+        /* background-image: url("Image/img-bg.jpg");
+        opacity: 0,5;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 100%;
+        left: 0;
+        right: 0;
+        overflow-x: hidden; */
+        background-color: khaki;
+    }
+}

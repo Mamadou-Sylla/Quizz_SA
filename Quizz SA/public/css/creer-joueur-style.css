@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0; 
+    overflow-x: hidden;  
+}
+.title{
+    margin-left: -65px;
+}
+.slogan{
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 65px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+.registre{
+    font-family: 'Kadwa';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    letter-spacing: 0.01em;
+    color: rgba(159, 155, 155, 0.99);
+}
+.avatar-inscrire{
+    margin-top: 30px;
+    height:510px;
+    margin-left: 170px;
+}
+.inscrire{
+    background-color: white;
+    box-sizing: border-box;
+    -webkit-box-shadow: 1px 1px 14px 3px rgba(159, 155, 155, 0.99);
+    -moz-box-shadow: 1px 1px 14px 3px rgba(159, 155, 155, 0.99);
+    box-shadow: 1px 1px 14px 3px rgba(159, 155, 155, 0.99);
+}
+.label{
+    font-family: 'Kadwa';
+    font-size: 20px;
+    color: rgba(159, 155, 155, 0.99);
+    margin-left: 30px;
+}
+.confirm-pwd{
+    margin-left: 30px;
+}
+.prenom-pwd{
+    margin-left: 95px;
+}
+.nom-login{
+    margin-left: 120px;
+}
+
+.items{
+    margin-top: 20px;
+}
+.joueur-photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 80px;
+    border: 3px solid #51BFD0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+.erreur{
+    margin-left: 200px;
+    color:red;
+}
+
+.items-form{
+    padding-top: 20px;
+}
+.btn-save{
+    font-family: 'Kalam', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    background-color: #51BFD0;
+    border-radius: 5px;
+    border: none;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 140px;
+}
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    float:right;
+    /* margin-top:10px; */
+    
+  }
+  
+  .btn-avatar {
+    border: 1px solid #51BFD0;
+    color: white;
+    background-color: #51BFD0;
+    border-radius: 8px;
+     font-family: 'Kalam';
+     font-size: 25px;
+     font-weight: bold;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 35px;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    margin-left: -16em;
+    margin-top: 50px;
+  }
+  #avatar{
+    width:200px; 
+     height:200px;
+  }

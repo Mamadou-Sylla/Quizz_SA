@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("Image/img-bg.jpg");
+    opacity: 0,5;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    left: 0;
+    right: 0;  
+    overflow-x: hidden; 
+}
+.header{
+    height:100px;
+    background: #2A5767;
+}
+.navbar{
+    height:80px; 
+    top:15px;
+    width: 90%;
+    background: #80B4C5;
+    margin-left: 5%;
+}
+.wrapper{
+    /* border: 1px solid green;  */
+    height:500px; 
+    margin-top:30px;
+}
+.logo, .title, .user{
+    height:100px;
+}
+/* .logo{
+    border: 1px solid red; 
+    
+} */
+
+.image{
+    width:40%;
+    height: 95%;
+    margin-left: 40px;
+}
+/* .title{
+    border: 1px solid black; 
+} */
+h1{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 80px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+.user{
+    /* border: 1px solid green;  */
+    
+}
+.photo{
+    border: 2px solid #80B4C5;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+h5{
+    font-family: 'Oxygen';
+    font-size: 15px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+.item,.disconnect{
+    height:80px;
+    top: -5px;
+} 
+h3{
+    font-family: 'Open Sans';
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    line-height: 65px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin-left: 200px;
+} 
+.btn-disconnect{
+    background-color: #2A5767;
+    width: 150px;
+    height: 40px;
+    font-family: 'Kalam';
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 17px;
+}
+a:active{
+    color: white;
+}
+a:hover{
+    color: white;
+}
+.menu{
+    background-color: white;
+    margin-left: 70px;
+    height:300px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 1px 1px 14px 3px rgba(159, 155, 155, 0.99);
+    -moz-box-shadow: 1px 1px 14px 3px rgba(159, 155, 155, 0.99);
+    box-shadow: 1px 1px 14px 3px rgba(159, 155, 155, 0.99);
+}
+.view{
+    background-color: white;
+    margin-left: 150px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 1px 1px 14px 3px rgba(159, 155, 155, 0.99);
+    -moz-box-shadow: 1px 1px 14px 3px rgba(159, 155, 155, 0.99);
+    box-shadow: 1px 1px 14px 3px rgba(159, 155, 155, 0.99);
+}
+li{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 50px;
+    letter-spacing: 0.01em;
+    color: rgba(159, 155, 155, 0.99);
+    width: auto;
+    margin-left: 10px;
+}
+a{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 50px;
+    letter-spacing: 0.01em;
+    color: rgba(159, 155, 155, 0.99);
+    text-decoration: none;
+}
+a:hover{
+    color: rgba(159, 155, 155, 0.99);
+}
+.icone{
+    margin-left:10px;
+}
+#icone{
+    width:20px; 
+    height:20px;
+}
+.add{
+    margin-left:30px;
+}
+.list{
+    margin-left:35px;
+}
+.view-logo{
+    width:150px;
+    height: 250px;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+p{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.01em;
+    color: #2A5767;
+    margin-top: 30px;
+}
+@media (min-width: @screen-xs-max) and (max-width: @screen-sm-max){ 
+body{
+    background-size: cover;
+}
+
+}
+
+
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
